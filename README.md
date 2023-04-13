@@ -22,5 +22,7 @@ So far we have two options to run: (1) single-level LM (`single-level/transforme
 ### Experiment Dataset
 We use nuScenes dataset to run experiment. Nuscenes dataset can be downloaded from [here](https://www.nuscenes.org/nuscenes#download). For the corresponding satellite dataset, please email `leekt@umich.edu` or `goroyeh.umich.edu`, we will then send you the link for download.
 
+### Acknowledgements
+We sincerely appreciate the awesome repos [HighlyAccurate](https://github.com/shiyujiao/HighlyAccurate), [GKT](https://github.com/hustvl/GKT), and [cross_view_transformers](https://github.com/bradyz/cross_view_transformers)
 ### Publications
 To be continued
