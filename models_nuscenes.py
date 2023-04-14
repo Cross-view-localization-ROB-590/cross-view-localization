@@ -1327,6 +1327,8 @@ class LM_S2GP(nn.Module):
                 SAVE_IMAGE = True
 
                 sat_feat = sat_feat_list[level] # (1, 10, 320, 320)
+
+                save_image(sat_feat[timestamp_idx, -3:, :, :], f'origin_sat_feat_iter_{self.counts}_{sample_name[timestamp_idx]}.png')
                 
                 B_sat, C_sat, H_sat, W_sat = sat_feat.shape
                 # B, C, H, W = sat_feat.shape
